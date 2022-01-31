@@ -2,13 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validación de tarjeta</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+        <img src="imagenes/logopastel2.png" alt="Logo pasteleria chocolate" class="icono">
+        <div class="validacion">
+          <h2>Nombre:</h2>
+          <p>
+            <label for="name"></label>
+           <input type="name"  id="inputNombre">
+           </p>
+           <p class="abajo">Nombre del titular de la tarjeta</p>
+           <h2>Número de tarjeta:</h2>
+           <p>
+             <label for="inputNumero"></label>
+            <input type="text"  id="inputNumero" maxlength="19" placeholder=" Digita solo numeros" >
+            </p>
+            <p class="abajo">Debe tener un máximo de 19 caracteres.</p>
+            <div id="validacion"></div>
+
+        <button id="miboton" >Agregar tarjeta</button>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
