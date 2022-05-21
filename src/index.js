@@ -5,7 +5,7 @@ const miboton = document.getElementById("miboton");
 
 const inpuntNumero = document.getElementById ("inputNumero");
 
-const valida = document.getElementById("validacion");
+const valida = document.getElementById("validacion"); // es valido o no
 
 
 miboton.addEventListener("click", function (){
@@ -14,7 +14,7 @@ miboton.addEventListener("click", function (){
   
 
   if (residuo1 == true){
-        valida.innerHTML="¡Tu tareta fue registrada con éxito!"
+        valida.innerHTML="¡Tu tarjeta fue registrada con éxito!"
       }                                 
       else {
         valida.innerHTML="¡Ups! Verifica tu numero de tarjeta"
